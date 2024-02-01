@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Register.css">
+  <title>Registrarse</title>
+</head>
+<body>
+  <div class="container">
+  <h1>Registrarse</h1>
+  <form action="registration_completed.html" 
+   method="post">
+
+   <label for="nuevo_nombre">Nombre:</label>
+    <input type="text" id="nuevo_nombre" name="nuevo_nombre" required class="inps-dates"><br><br>
+
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" name="correo" required class="inps-dates"><br><br>
+
+    <label for="new_password">Nueva contraseña:</label>
+    <input type="password" id="new_password" name="new_password" required class="inps-dates"><br><br>
+
+    <label for="confirmar_contrasena">Confirmar Contraseña:</label>
+    <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required class="inps-dates"><br><br>
+
+    <input type="submit" value="Registrarse" id="inp-subm">
+  </form>
+  <p>¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a></p>
+  </div>
+</body>
+</html>
